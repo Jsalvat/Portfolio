@@ -1,0 +1,36 @@
+@import '../../styles/variables.scss';
+
+.headerContainer {
+  background: $background;
+  height: 70px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.phantomContainer {
+  @extend .headerContainer;
+  display: none;
+}
+
+.textContainer {
+  margin: auto 0;
+  margin-bottom: 10;
+}
+
+.title {
+  font-size: 30px;
+  color: $primary;
+  font-weight: 500;
+}
+
+.subtitle {
+  margin-left: 10px;
+  color: $extra;
+}
+
+.registerLoginContainer {
+  margin: auto 0;
+  margin-bottom: 10;
+}

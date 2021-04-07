@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.menu {
+  height: 6px;
+  background: $primary;
+}
+
+.generalContainer {
+  height: 100%;
+  .layoutContainer {
+    padding: 20px;
+    background: $background;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
